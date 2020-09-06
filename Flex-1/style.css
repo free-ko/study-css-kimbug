@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: -0.02em;
+  height: 100vh;
+  background-color: #f2f2f2;
+}
+
+a {
+  font-size: 18px;
+  line-height: 20px;
+  color: #8492a6;
+  text-decoration: none;
+}
+
+/* ▼ WHERE YOUR CODE BEGINS */
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* .tab-menu {
+    overflow: hidden;
+  } */
+
+.tab-menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid #e5eaef;
+  background-color: #f2f2f2;
+  max-width: 540px;
+}
+
+.tab-menu-item {
+  margin-right: 16px;
+}
+
+.tab-menu-item a {
+  display: block;
+  padding: 16px 20px;
+}
+
+.tab-menu-item a:hover {
+  font-weight: 500;
+  color: #2860e1;
+}
