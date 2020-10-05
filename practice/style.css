@@ -96,8 +96,7 @@ p {
 
 /* Landing */
 .landing {
-  background-color: #fdded8;
-  text-align: center;  
+  background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);  text-align: center;  
 }
 
 .landing-content {
@@ -113,11 +112,12 @@ p {
   font-size: 40px;
   line-height: 1;
   letter-spacing: -0.05em;
-  color: #2b292d;
+  color: #fff;
 }
 
 .landing-desc {
   margin-bottom: 20px;
+  color: #fff;
 }
 
 .landing .button-group {
